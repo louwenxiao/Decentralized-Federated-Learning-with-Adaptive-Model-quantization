@@ -1,0 +1,2024 @@
+idx : 1
+master_ip : 127.0.0.1
+master_port : 31000
+dataset_type : CIFAR10
+batch_size : 32
+lr : 0.01
+min_lr : 0.002
+ratio : 1.0
+decay_rate : 0.99
+epoch : 200
+use_cuda : True
+visible_cuda : -1
+algorithm : proposed
+Model Size: 13.319129943847656 MB
+train data len : 6250
+
+Files already downloaded and verified
+Files already downloaded and verified
+train dataset:
+class counts:  [625. 625. 625. 625. 625. 625. 625. 625. 625. 625.]
+total data count:  6250.0
+test dataset:
+class counts:  [125. 125. 125. 125. 125. 125. 125. 125. 125. 125.]
+total data count:  1250.0
+--**--
+epoch-1 lr: 0.01
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.797749757766724
+epoch: 1, train loss: 2.292210311203003, test loss: 0.017463918304443358, test accuracy: 0.1944
+
+
+
+--**--
+epoch-2 lr: 0.0099
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.626443862915039
+epoch: 2, train loss: 2.0898822982025145, test loss: 0.015447848987579347, test accuracy: 0.2808
+
+
+
+--**--
+epoch-3 lr: 0.009801
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.703414678573608
+epoch: 3, train loss: 1.9291645390319825, test loss: 0.013835704326629639, test accuracy: 0.332
+
+
+
+--**--
+epoch-4 lr: 0.00970299
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.425775051116943
+epoch: 4, train loss: 1.7852244592285156, test loss: 0.013186403560638427, test accuracy: 0.3872
+
+
+
+--**--
+epoch-5 lr: 0.0096059601
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.902699708938599
+epoch: 5, train loss: 1.7203386026000977, test loss: 0.012586787700653076, test accuracy: 0.416
+
+
+
+--**--
+epoch-6 lr: 0.009509900499
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.6103620529174805
+epoch: 6, train loss: 1.651171661758423, test loss: 0.011799906253814697, test accuracy: 0.4576
+
+
+
+--**--
+epoch-7 lr: 0.00941480149401
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.512000560760498
+epoch: 7, train loss: 1.57513110786438, test loss: 0.01145367670059204, test accuracy: 0.456
+
+
+
+--**--
+epoch-8 lr: 0.0093206534790699
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.4342546463012695
+epoch: 8, train loss: 1.5048197866439819, test loss: 0.010643548059463501, test accuracy: 0.5096
+
+
+
+--**--
+epoch-9 lr: 0.0092274469442792
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.573035001754761
+epoch: 9, train loss: 1.4667006338119506, test loss: 0.010134407567977906, test accuracy: 0.5176
+
+
+
+--**--
+epoch-10 lr: 0.009135172474836408
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.6022257804870605
+epoch: 10, train loss: 1.3839348553466797, test loss: 0.010058187174797058, test accuracy: 0.528
+
+
+
+--**--
+epoch-11 lr: 0.009043820750088045
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.456637859344482
+epoch: 11, train loss: 1.342972865524292, test loss: 0.009394913196563721, test accuracy: 0.5832
+
+
+
+--**--
+epoch-12 lr: 0.008953382542587164
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.473800420761108
+epoch: 12, train loss: 1.288738883972168, test loss: 0.008965415859222413, test accuracy: 0.5992
+
+
+
+--**--
+epoch-13 lr: 0.008863848717161293
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.574464321136475
+epoch: 13, train loss: 1.2116243251800538, test loss: 0.008490900683403016, test accuracy: 0.6088
+
+
+
+--**--
+epoch-14 lr: 0.00877521022998968
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.503704309463501
+epoch: 14, train loss: 1.182965046005249, test loss: 0.00800066590309143, test accuracy: 0.6512
+
+
+
+--**--
+epoch-15 lr: 0.008687458127689783
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.381679058074951
+epoch: 15, train loss: 1.1315362477111817, test loss: 0.00788778567314148, test accuracy: 0.6464
+
+
+
+--**--
+epoch-16 lr: 0.008600583546412886
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.533344745635986
+epoch: 16, train loss: 1.0996850498771666, test loss: 0.007543250370025635, test accuracy: 0.6808
+
+
+
+--**--
+epoch-17 lr: 0.008514577710948757
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.705327749252319
+epoch: 17, train loss: 1.047941346435547, test loss: 0.007117354249954223, test accuracy: 0.6848
+
+
+
+--**--
+epoch-18 lr: 0.00842943193383927
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.455956697463989
+epoch: 18, train loss: 1.0052808723831177, test loss: 0.006962894058227539, test accuracy: 0.6952
+
+
+
+--**--
+epoch-19 lr: 0.008345137614500876
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.633082389831543
+epoch: 19, train loss: 0.970773822631836, test loss: 0.0066568013906478886, test accuracy: 0.7112
+
+
+
+--**--
+epoch-20 lr: 0.008261686238355867
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.822840929031372
+epoch: 20, train loss: 0.9389159504318237, test loss: 0.006529405772686005, test accuracy: 0.7152
+
+
+
+--**--
+epoch-21 lr: 0.008179069375972308
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.8020899295806885
+epoch: 21, train loss: 0.9226144955825806, test loss: 0.006347141933441162, test accuracy: 0.7296
+
+
+
+--**--
+epoch-22 lr: 0.008097278682212584
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.396424055099487
+epoch: 22, train loss: 0.8696817657852173, test loss: 0.00621383980512619, test accuracy: 0.7312
+
+
+
+--**--
+epoch-23 lr: 0.00801630589539046
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.459303855895996
+epoch: 23, train loss: 0.8532925187683106, test loss: 0.0061642643570899965, test accuracy: 0.7352
+
+
+
+--**--
+epoch-24 lr: 0.007936142836436554
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.7907373905181885
+epoch: 24, train loss: 0.835765827217102, test loss: 0.005907999467849732, test accuracy: 0.7376
+
+
+
+--**--
+epoch-25 lr: 0.007856781408072189
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.4494593143463135
+epoch: 25, train loss: 0.8056763899993896, test loss: 0.00551797651052475, test accuracy: 0.772
+
+
+
+--**--
+epoch-26 lr: 0.007778213593991467
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.623090028762817
+epoch: 26, train loss: 0.7895629229354858, test loss: 0.005446450579166412, test accuracy: 0.7616
+
+
+
+--**--
+epoch-27 lr: 0.007700431458051552
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.402331352233887
+epoch: 27, train loss: 0.7717249478340149, test loss: 0.005297062039375305, test accuracy: 0.78
+
+
+
+--**--
+epoch-28 lr: 0.007623427143471037
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.481221914291382
+epoch: 28, train loss: 0.7561980857276916, test loss: 0.005251732873916626, test accuracy: 0.7728
+
+
+
+--**--
+epoch-29 lr: 0.007547192872036326
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.648189067840576
+epoch: 29, train loss: 0.7038834272003174, test loss: 0.005205860567092896, test accuracy: 0.7728
+
+
+
+--**--
+epoch-30 lr: 0.007471720943315963
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.522611379623413
+epoch: 30, train loss: 0.7124054996490479, test loss: 0.005165091383457184, test accuracy: 0.7728
+
+
+
+--**--
+epoch-31 lr: 0.007397003733882804
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.479624271392822
+epoch: 31, train loss: 0.7001868243598938, test loss: 0.00508097048997879, test accuracy: 0.7744
+
+
+
+--**--
+epoch-32 lr: 0.007323033696543976
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.381687641143799
+epoch: 32, train loss: 0.6796454652404785, test loss: 0.004843971252441406, test accuracy: 0.7904
+
+
+
+--**--
+epoch-33 lr: 0.007249803359578536
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.50714111328125
+epoch: 33, train loss: 0.6485260143661499, test loss: 0.004728320288658142, test accuracy: 0.7936
+
+
+
+--**--
+epoch-34 lr: 0.0071773053259827505
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.53484845161438
+epoch: 34, train loss: 0.6497881710243225, test loss: 0.0047088002562522885, test accuracy: 0.8
+
+
+
+--**--
+epoch-35 lr: 0.007105532272722923
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.524636268615723
+epoch: 35, train loss: 0.6231412258529663, test loss: 0.00469677323102951, test accuracy: 0.7936
+
+
+
+--**--
+epoch-36 lr: 0.007034476949995694
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.697091817855835
+epoch: 36, train loss: 0.6118831182289124, test loss: 0.004764400041103363, test accuracy: 0.8016
+
+
+
+--**--
+epoch-37 lr: 0.006964132180495737
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.653905153274536
+epoch: 37, train loss: 0.6069703905391693, test loss: 0.004438389503955841, test accuracy: 0.7992
+
+
+
+--**--
+epoch-38 lr: 0.00689449085869078
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.5055296421051025
+epoch: 38, train loss: 0.5835841742897033, test loss: 0.004454971766471863, test accuracy: 0.8032
+
+
+
+--**--
+epoch-39 lr: 0.006825545950103872
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.406059503555298
+epoch: 39, train loss: 0.5897647642230988, test loss: 0.004577998661994934, test accuracy: 0.8032
+
+
+
+--**--
+epoch-40 lr: 0.0067572904906028335
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.54299783706665
+epoch: 40, train loss: 0.5642999502372742, test loss: 0.004544573962688446, test accuracy: 0.8008
+
+
+
+--**--
+epoch-41 lr: 0.006689717585696805
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.527549505233765
+epoch: 41, train loss: 0.5450261337661744, test loss: 0.004373812174797058, test accuracy: 0.8072
+
+
+
+--**--
+epoch-42 lr: 0.006622820409839836
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.402014255523682
+epoch: 42, train loss: 0.5346948372268677, test loss: 0.004157435941696167, test accuracy: 0.824
+
+
+
+--**--
+epoch-43 lr: 0.006556592205741438
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.653806686401367
+epoch: 43, train loss: 0.5300029999160767, test loss: 0.004336472201347351, test accuracy: 0.8176
+
+
+
+--**--
+epoch-44 lr: 0.006491026283684023
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.421877384185791
+epoch: 44, train loss: 0.5189964373493194, test loss: 0.004361914348602295, test accuracy: 0.816
+
+
+
+--**--
+epoch-45 lr: 0.006426116020847182
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.736066818237305
+epoch: 45, train loss: 0.5127124854850769, test loss: 0.004194913291931153, test accuracy: 0.8168
+
+
+
+--**--
+epoch-46 lr: 0.006361854860638711
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.5552098751068115
+epoch: 46, train loss: 0.48701096300125124, test loss: 0.004018376088142395, test accuracy: 0.8264
+
+
+
+--**--
+epoch-47 lr: 0.006298236312032323
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.5387444496154785
+epoch: 47, train loss: 0.49902502046585084, test loss: 0.00407621191740036, test accuracy: 0.8192
+
+
+
+--**--
+epoch-48 lr: 0.006235253948912
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.530128240585327
+epoch: 48, train loss: 0.48346070132255553, test loss: 0.004107870185375214, test accuracy: 0.8224
+
+
+
+--**--
+epoch-49 lr: 0.00617290140942288
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.5486204624176025
+epoch: 49, train loss: 0.46508569175720216, test loss: 0.003952075147628784, test accuracy: 0.8288
+
+
+
+--**--
+epoch-50 lr: 0.006111172395328651
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.446327209472656
+epoch: 50, train loss: 0.4682659916114807, test loss: 0.0040874897718429564, test accuracy: 0.8256
+
+
+
+--**--
+epoch-51 lr: 0.0060500606713753645
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.430683374404907
+epoch: 51, train loss: 0.451528925113678, test loss: 0.0039069304525852205, test accuracy: 0.832
+
+
+
+--**--
+epoch-52 lr: 0.005989560064661611
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.636011362075806
+epoch: 52, train loss: 0.45163784523010253, test loss: 0.004098930048942566, test accuracy: 0.828
+
+
+
+--**--
+epoch-53 lr: 0.005929664464014994
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.654440641403198
+epoch: 53, train loss: 0.4358519364643097, test loss: 0.00385580450296402, test accuracy: 0.844
+
+
+
+--**--
+epoch-54 lr: 0.0058703678193748445
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.44882607460022
+epoch: 54, train loss: 0.43806875816345214, test loss: 0.0038626837491989134, test accuracy: 0.836
+
+
+
+--**--
+epoch-55 lr: 0.005811664141181096
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.553292751312256
+epoch: 55, train loss: 0.4192270417022705, test loss: 0.0039619228482246395, test accuracy: 0.8336
+
+
+
+--**--
+epoch-56 lr: 0.0057535474997692845
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.568333625793457
+epoch: 56, train loss: 0.43283401292800905, test loss: 0.003790242671966553, test accuracy: 0.8432
+
+
+
+--**--
+epoch-57 lr: 0.005696012024771591
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.465213298797607
+epoch: 57, train loss: 0.40303889130592346, test loss: 0.003843186694383621, test accuracy: 0.8328
+
+
+
+--**--
+epoch-58 lr: 0.005639051904523875
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.567129611968994
+epoch: 58, train loss: 0.4064739645576477, test loss: 0.00395627092719078, test accuracy: 0.8256
+
+
+
+--**--
+epoch-59 lr: 0.005582661385478636
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.587766647338867
+epoch: 59, train loss: 0.3983261159515381, test loss: 0.0037155157804489134, test accuracy: 0.8432
+
+
+
+--**--
+epoch-60 lr: 0.0055268347716238495
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.7337257862091064
+epoch: 60, train loss: 0.3794052249622345, test loss: 0.003689802134037018, test accuracy: 0.8408
+
+
+
+--**--
+epoch-61 lr: 0.005471566423907611
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.672171115875244
+epoch: 61, train loss: 0.39954071773529054, test loss: 0.0037942592203617097, test accuracy: 0.8344
+
+
+
+--**--
+epoch-62 lr: 0.005416850759668535
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.469042062759399
+epoch: 62, train loss: 0.3831114484405518, test loss: 0.0035859573543071746, test accuracy: 0.8496
+
+
+
+--**--
+epoch-63 lr: 0.005362682252071849
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.633162021636963
+epoch: 63, train loss: 0.36471763536453244, test loss: 0.003636382383108139, test accuracy: 0.848
+
+
+
+--**--
+epoch-64 lr: 0.005309055429551131
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.552261590957642
+epoch: 64, train loss: 0.3693775651311874, test loss: 0.003593048220872879, test accuracy: 0.8472
+
+
+
+--**--
+epoch-65 lr: 0.00525596487525562
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.496638536453247
+epoch: 65, train loss: 0.3604012485027313, test loss: 0.0036458372712135315, test accuracy: 0.8424
+
+
+
+--**--
+epoch-66 lr: 0.005203405226503063
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.607401609420776
+epoch: 66, train loss: 0.35975746949195864, test loss: 0.0035732279598712923, test accuracy: 0.8464
+
+
+
+--**--
+epoch-67 lr: 0.005151371174238033
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.593250751495361
+epoch: 67, train loss: 0.3591986661195755, test loss: 0.0036937117636203767, test accuracy: 0.844
+
+
+
+--**--
+epoch-68 lr: 0.005099857462495652
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.301397323608398
+epoch: 68, train loss: 0.34606715821266176, test loss: 0.0034894735753536223, test accuracy: 0.8512
+
+
+
+--**--
+epoch-69 lr: 0.005048858887870696
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.627350330352783
+epoch: 69, train loss: 0.3392650609397888, test loss: 0.003519960504770279, test accuracy: 0.848
+
+
+
+--**--
+epoch-70 lr: 0.004998370298991989
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.388443231582642
+epoch: 70, train loss: 0.3375831029701233, test loss: 0.0033948270082473754, test accuracy: 0.8544
+
+
+
+--**--
+epoch-71 lr: 0.00494838659600207
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.617794513702393
+epoch: 71, train loss: 0.32386578837394714, test loss: 0.003491023051738739, test accuracy: 0.8488
+
+
+
+--**--
+epoch-72 lr: 0.004898902730042049
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.554290294647217
+epoch: 72, train loss: 0.3281877007865906, test loss: 0.0033773141264915466, test accuracy: 0.8552
+
+
+
+--**--
+epoch-73 lr: 0.004849913702741628
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.702065467834473
+epoch: 73, train loss: 0.3272068385314941, test loss: 0.0034661231756210327, test accuracy: 0.8552
+
+
+
+--**--
+epoch-74 lr: 0.004801414565714212
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.56110143661499
+epoch: 74, train loss: 0.3087204373264313, test loss: 0.003508863180875778, test accuracy: 0.8488
+
+
+
+--**--
+epoch-75 lr: 0.0047534004200570695
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.515262126922607
+epoch: 75, train loss: 0.3153127725696564, test loss: 0.003634928059577942, test accuracy: 0.8472
+
+
+
+--**--
+epoch-76 lr: 0.004705866415856499
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.724059820175171
+epoch: 76, train loss: 0.2966327645087242, test loss: 0.0035148068845272063, test accuracy: 0.856
+
+
+
+--**--
+epoch-77 lr: 0.004658807751697934
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.712622165679932
+epoch: 77, train loss: 0.2903349368095398, test loss: 0.003393290996551514, test accuracy: 0.8592
+
+
+
+--**--
+epoch-78 lr: 0.004612219674180955
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.678963899612427
+epoch: 78, train loss: 0.29613582976341246, test loss: 0.0035878012537956237, test accuracy: 0.8544
+
+
+
+--**--
+epoch-79 lr: 0.004566097477439145
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.428578853607178
+epoch: 79, train loss: 0.3001552751541138, test loss: 0.003442337691783905, test accuracy: 0.8544
+
+
+
+--**--
+epoch-80 lr: 0.004520436502664754
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.680421590805054
+epoch: 80, train loss: 0.2845965473175049, test loss: 0.0033806253612041473, test accuracy: 0.8552
+
+
+
+--**--
+epoch-81 lr: 0.004475232137638106
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.42205548286438
+epoch: 81, train loss: 0.28238493936538694, test loss: 0.0034973756372928618, test accuracy: 0.8536
+
+
+
+--**--
+epoch-82 lr: 0.004430479816261725
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.617567539215088
+epoch: 82, train loss: 0.28401375551223756, test loss: 0.0034718406438827513, test accuracy: 0.8424
+
+
+
+--**--
+epoch-83 lr: 0.004386175018099108
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.825962543487549
+epoch: 83, train loss: 0.26458746537208555, test loss: 0.003494237607717514, test accuracy: 0.8536
+
+
+
+--**--
+epoch-84 lr: 0.004342313267918117
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.3694353103637695
+epoch: 84, train loss: 0.26331963015556337, test loss: 0.0034163350224494936, test accuracy: 0.8488
+
+
+
+--**--
+epoch-85 lr: 0.004298890135238936
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.665855646133423
+epoch: 85, train loss: 0.25473151257514953, test loss: 0.003439727622270584, test accuracy: 0.8528
+
+
+
+--**--
+epoch-86 lr: 0.004255901233886547
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.5671446323394775
+epoch: 86, train loss: 0.2535016181373596, test loss: 0.0033104003667831423, test accuracy: 0.8592
+
+
+
+--**--
+epoch-87 lr: 0.004213342221547681
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.434791564941406
+epoch: 87, train loss: 0.2571957091808319, test loss: 0.003494082662463188, test accuracy: 0.852
+
+
+
+--**--
+epoch-88 lr: 0.004171208799332205
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.7220001220703125
+epoch: 88, train loss: 0.2551025561475754, test loss: 0.0033736788123846055, test accuracy: 0.8624
+
+
+
+--**--
+epoch-89 lr: 0.004129496711338883
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.6645190715789795
+epoch: 89, train loss: 0.2536516641139984, test loss: 0.003375706773996353, test accuracy: 0.8656
+
+
+
+--**--
+epoch-90 lr: 0.004088201744225493
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.50361704826355
+epoch: 90, train loss: 0.2480093272638321, test loss: 0.003364570140838623, test accuracy: 0.8608
+
+
+
+--**--
+epoch-91 lr: 0.004047319726783238
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.851374626159668
+epoch: 91, train loss: 0.24074906590402126, test loss: 0.0033318455308675764, test accuracy: 0.8672
+
+
+
+--**--
+epoch-92 lr: 0.004006846529515406
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.511662244796753
+epoch: 92, train loss: 0.2397591051721573, test loss: 0.0033733694583177568, test accuracy: 0.8632
+
+
+
+--**--
+epoch-93 lr: 0.003966778064220252
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.418674945831299
+epoch: 93, train loss: 0.23251716264247893, test loss: 0.0033573224782943727, test accuracy: 0.8632
+
+
+
+--**--
+epoch-94 lr: 0.003927110283578049
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.507374048233032
+epoch: 94, train loss: 0.2310923031425476, test loss: 0.0033351474344730375, test accuracy: 0.864
+
+
+
+--**--
+epoch-95 lr: 0.0038878391807422685
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.606195688247681
+epoch: 95, train loss: 0.2223607045173645, test loss: 0.003295659253001213, test accuracy: 0.8632
+
+
+
+--**--
+epoch-96 lr: 0.0038489607889348456
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.585118532180786
+epoch: 96, train loss: 0.22386444209098816, test loss: 0.0035483619034290315, test accuracy: 0.8544
+
+
+
+--**--
+epoch-97 lr: 0.0038104711810454973
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.403244972229004
+epoch: 97, train loss: 0.21186848736763, test loss: 0.003380521899461746, test accuracy: 0.8624
+
+
+
+--**--
+epoch-98 lr: 0.0037723664692350424
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.793857574462891
+epoch: 98, train loss: 0.21620377060890197, test loss: 0.0034129462420940397, test accuracy: 0.868
+
+
+
+--**--
+epoch-99 lr: 0.003734642804542692
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.819986581802368
+epoch: 99, train loss: 0.20846180887699128, test loss: 0.003441887551546097, test accuracy: 0.8664
+
+
+
+--**--
+epoch-100 lr: 0.003697296376497265
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.577479362487793
+epoch: 100, train loss: 0.207842748837471, test loss: 0.0033431915402412416, test accuracy: 0.8616
+
+
+
+--**--
+epoch-101 lr: 0.0036603234127322924
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.577990531921387
+epoch: 101, train loss: 0.20092686693191528, test loss: 0.0033655895233154296, test accuracy: 0.8656
+
+
+
+--**--
+epoch-102 lr: 0.0036237201786049693
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.551220178604126
+epoch: 102, train loss: 0.20211852780342102, test loss: 0.0034630687475204467, test accuracy: 0.86
+
+
+
+--**--
+epoch-103 lr: 0.0035874829768189195
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.66178297996521
+epoch: 103, train loss: 0.20446307250976561, test loss: 0.003364704078435898, test accuracy: 0.8664
+
+
+
+--**--
+epoch-104 lr: 0.0035516081470507305
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.536205053329468
+epoch: 104, train loss: 0.20768018431663512, test loss: 0.0037130761086940764, test accuracy: 0.8576
+
+
+
+--**--
+epoch-105 lr: 0.0035160920655802233
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.584299325942993
+epoch: 105, train loss: 0.184161200427413, test loss: 0.003335108858346939, test accuracy: 0.8664
+
+
+
+--**--
+epoch-106 lr: 0.003480931144924421
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.42790412902832
+epoch: 106, train loss: 0.19711342824935912, test loss: 0.0034045058131217955, test accuracy: 0.8656
+
+
+
+--**--
+epoch-107 lr: 0.003446121833475177
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.531826972961426
+epoch: 107, train loss: 0.191946464407444, test loss: 0.003286554145812988, test accuracy: 0.8712
+
+
+
+--**--
+epoch-108 lr: 0.003411660615140425
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.512484312057495
+epoch: 108, train loss: 0.19880948894023895, test loss: 0.0033293366551399232, test accuracy: 0.8648
+
+
+
+--**--
+epoch-109 lr: 0.003377544008989021
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.517444372177124
+epoch: 109, train loss: 0.19473329500675202, test loss: 0.0034149366468191147, test accuracy: 0.8696
+
+
+
+--**--
+epoch-110 lr: 0.003343768568899131
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.609833478927612
+epoch: 110, train loss: 0.16741334843158723, test loss: 0.0033398547887802123, test accuracy: 0.8616
+
+
+
+--**--
+epoch-111 lr: 0.00331033088321014
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.760571718215942
+epoch: 111, train loss: 0.17975922262191774, test loss: 0.003200986933708191, test accuracy: 0.8728
+
+
+
+--**--
+epoch-112 lr: 0.0032772275743780384
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.700088262557983
+epoch: 112, train loss: 0.18069260909795762, test loss: 0.0032052570819854735, test accuracy: 0.8736
+
+
+
+--**--
+epoch-113 lr: 0.0032444552986342578
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.494340658187866
+epoch: 113, train loss: 0.15792947114944458, test loss: 0.0033921572387218477, test accuracy: 0.8696
+
+
+
+--**--
+epoch-114 lr: 0.0032120107456479153
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.823880195617676
+epoch: 114, train loss: 0.16780751839160918, test loss: 0.0034101597487926484, test accuracy: 0.876
+
+
+
+--**--
+epoch-115 lr: 0.003179890638191436
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.483065843582153
+epoch: 115, train loss: 0.17093265962123871, test loss: 0.0032352297693490984, test accuracy: 0.8776
+
+
+
+--**--
+epoch-116 lr: 0.003148091731809522
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.530938386917114
+epoch: 116, train loss: 0.16303004507482052, test loss: 0.003484986728429794, test accuracy: 0.86
+
+
+
+--**--
+epoch-117 lr: 0.0031166108144914267
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.573403358459473
+epoch: 117, train loss: 0.1616292510509491, test loss: 0.003452504789829254, test accuracy: 0.8792
+
+
+
+--**--
+epoch-118 lr: 0.0030854447063465122
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.540581941604614
+epoch: 118, train loss: 0.15916582339525223, test loss: 0.0032603502720594405, test accuracy: 0.8744
+
+
+
+--**--
+epoch-119 lr: 0.003054590259283047
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.665822982788086
+epoch: 119, train loss: 0.15458935922652484, test loss: 0.00336149662733078, test accuracy: 0.8696
+
+
+
+--**--
+epoch-120 lr: 0.0030240443566902165
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.890287637710571
+epoch: 120, train loss: 0.15902419432640075, test loss: 0.003363665908575058, test accuracy: 0.8744
+
+
+
+--**--
+epoch-121 lr: 0.002993803913123314
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.52082371711731
+epoch: 121, train loss: 0.15674027002334595, test loss: 0.003410094887018204, test accuracy: 0.8608
+
+
+
+--**--
+epoch-122 lr: 0.002963865873992081
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.497841835021973
+epoch: 122, train loss: 0.14998653579711915, test loss: 0.003558949649333954, test accuracy: 0.8736
+
+
+
+--**--
+epoch-123 lr: 0.00293422721525216
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.633163213729858
+epoch: 123, train loss: 0.1508438373231888, test loss: 0.0033256795048713685, test accuracy: 0.872
+
+
+
+--**--
+epoch-124 lr: 0.0029048849430996383
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.682421445846558
+epoch: 124, train loss: 0.14589223395347595, test loss: 0.0034013411343097686, test accuracy: 0.8728
+
+
+
+--**--
+epoch-125 lr: 0.002875836093668642
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.498202085494995
+epoch: 125, train loss: 0.15209778849601746, test loss: 0.0032168664872646332, test accuracy: 0.8776
+
+
+
+--**--
+epoch-126 lr: 0.0028470777327319553
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.659635782241821
+epoch: 126, train loss: 0.1352756036043167, test loss: 0.003319423472881317, test accuracy: 0.8728
+
+
+
+--**--
+epoch-127 lr: 0.0028186069554046356
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.595273733139038
+epoch: 127, train loss: 0.1481149898171425, test loss: 0.003338750064373016, test accuracy: 0.876
+
+
+
+--**--
+epoch-128 lr: 0.002790420885850589
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.494002103805542
+epoch: 128, train loss: 0.1323778689289093, test loss: 0.0033818221777677537, test accuracy: 0.8712
+
+
+
+--**--
+epoch-129 lr: 0.002762516676992083
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.67979097366333
+epoch: 129, train loss: 0.14292351201057435, test loss: 0.003358476194739342, test accuracy: 0.8784
+
+
+
+--**--
+epoch-130 lr: 0.0027348915102221624
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.612311124801636
+epoch: 130, train loss: 0.1540244797229767, test loss: 0.0033957317471504213, test accuracy: 0.8704
+
+
+
+--**--
+epoch-131 lr: 0.0027075425951199406
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.520934343338013
+epoch: 131, train loss: 0.1251126272574067, test loss: 0.003187714922428131, test accuracy: 0.876
+
+
+
+--**--
+epoch-132 lr: 0.0026804671691687413
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.426918268203735
+epoch: 132, train loss: 0.12526229780197143, test loss: 0.0034505458116531372, test accuracy: 0.872
+
+
+
+--**--
+epoch-133 lr: 0.0026536624974770537
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.458250284194946
+epoch: 133, train loss: 0.12953464256763458, test loss: 0.0034501980423927306, test accuracy: 0.8744
+
+
+
+--**--
+epoch-134 lr: 0.002627125872502283
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.611756086349487
+epoch: 134, train loss: 0.11814261402487755, test loss: 0.003339729160070419, test accuracy: 0.8688
+
+
+
+--**--
+epoch-135 lr: 0.0026008546137772605
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.708294153213501
+epoch: 135, train loss: 0.11566668051958084, test loss: 0.003360329920053482, test accuracy: 0.8736
+
+
+
+--**--
+epoch-136 lr: 0.0025748460676394878
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.54801344871521
+epoch: 136, train loss: 0.1345543111872673, test loss: 0.0033118574738502504, test accuracy: 0.8808
+
+
+
+--**--
+epoch-137 lr: 0.002549097606963093
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.6293113231658936
+epoch: 137, train loss: 0.11937253590583802, test loss: 0.0033705797195434572, test accuracy: 0.88
+
+
+
+--**--
+epoch-138 lr: 0.002523606630893462
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.6799702644348145
+epoch: 138, train loss: 0.11990239157736302, test loss: 0.003422163063287735, test accuracy: 0.8768
+
+
+
+--**--
+epoch-139 lr: 0.0024983705645845273
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.778952598571777
+epoch: 139, train loss: 0.11559149400711059, test loss: 0.003274926668405533, test accuracy: 0.8768
+
+
+
+--**--
+epoch-140 lr: 0.002473386858938682
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.7720911502838135
+epoch: 140, train loss: 0.12489203633069992, test loss: 0.0032499693274497987, test accuracy: 0.8768
+
+
+
+--**--
+epoch-141 lr: 0.002448652990349295
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.609349012374878
+epoch: 141, train loss: 0.10999209536075592, test loss: 0.0036009325623512266, test accuracy: 0.8712
+
+
+
+--**--
+epoch-142 lr: 0.0024241664604458023
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.5471556186676025
+epoch: 142, train loss: 0.10765893342375756, test loss: 0.00349180069565773, test accuracy: 0.8688
+
+
+
+--**--
+epoch-143 lr: 0.002399924795841344
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.916135311126709
+epoch: 143, train loss: 0.11626899807929993, test loss: 0.0034464758515357972, test accuracy: 0.8752
+
+
+
+--**--
+epoch-144 lr: 0.0023759255478829305
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.623286008834839
+epoch: 144, train loss: 0.09922549963712693, test loss: 0.0034310678005218505, test accuracy: 0.8736
+
+
+
+--**--
+epoch-145 lr: 0.002352166292404101
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.52730393409729
+epoch: 145, train loss: 0.10746563032627106, test loss: 0.0033643819570541383, test accuracy: 0.8784
+
+
+
+--**--
+epoch-146 lr: 0.00232864462948006
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.426484823226929
+epoch: 146, train loss: 0.1118628710860014, test loss: 0.003497416067123413, test accuracy: 0.872
+
+
+
+--**--
+epoch-147 lr: 0.0023053581831852595
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.657544851303101
+epoch: 147, train loss: 0.10481817436218262, test loss: 0.0034900963097810743, test accuracy: 0.8784
+
+
+
+--**--
+epoch-148 lr: 0.002282304601353407
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.487289667129517
+epoch: 148, train loss: 0.10686718382040039, test loss: 0.0035348049521446226, test accuracy: 0.876
+
+
+
+--**--
+epoch-149 lr: 0.002259481555339873
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.328348875045776
+epoch: 149, train loss: 0.11141714517116547, test loss: 0.0033351763010025025, test accuracy: 0.88
+
+
+
+--**--
+epoch-150 lr: 0.0022368867397864743
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.858476161956787
+epoch: 150, train loss: 0.09281923667192458, test loss: 0.0034327615320682526, test accuracy: 0.8728
+
+
+
+--**--
+epoch-151 lr: 0.0022145178723886093
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.531710624694824
+epoch: 151, train loss: 0.0996146744787693, test loss: 0.0033668933033943176, test accuracy: 0.8816
+
+
+
+--**--
+epoch-152 lr: 0.002192372693664723
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.399891138076782
+epoch: 152, train loss: 0.09514040604352951, test loss: 0.0035783505856990814, test accuracy: 0.8768
+
+
+
+--**--
+epoch-153 lr: 0.002170448966728076
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.449185371398926
+epoch: 153, train loss: 0.10499589672803879, test loss: 0.003575091636180878, test accuracy: 0.872
+
+
+
+--**--
+epoch-154 lr: 0.002148744477060795
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.506666421890259
+epoch: 154, train loss: 0.10885148437976837, test loss: 0.0033392689645290376, test accuracy: 0.8776
+
+
+
+--**--
+epoch-155 lr: 0.002127257032290187
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.559319257736206
+epoch: 155, train loss: 0.09999571342945099, test loss: 0.003410011276602745, test accuracy: 0.8816
+
+
+
+--**--
+epoch-156 lr: 0.002105984461967285
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.471558094024658
+epoch: 156, train loss: 0.08308673030078412, test loss: 0.00327199581861496, test accuracy: 0.8792
+
+
+
+--**--
+epoch-157 lr: 0.0020849246173476124
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.450253486633301
+epoch: 157, train loss: 0.08977600058317184, test loss: 0.00349884295463562, test accuracy: 0.88
+
+
+
+--**--
+epoch-158 lr: 0.0020640753711741364
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.604060411453247
+epoch: 158, train loss: 0.09220693338036537, test loss: 0.0032827928721904753, test accuracy: 0.8808
+
+
+
+--**--
+epoch-159 lr: 0.0020434346174623952
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.685370683670044
+epoch: 159, train loss: 0.08509062060773373, test loss: 0.0035540563881397247, test accuracy: 0.8728
+
+
+
+--**--
+epoch-160 lr: 0.0020230002712877714
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.489538192749023
+epoch: 160, train loss: 0.09185309256970882, test loss: 0.0035287225425243377, test accuracy: 0.876
+
+
+
+--**--
+epoch-161 lr: 0.0020027702685748937
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.665348291397095
+epoch: 161, train loss: 0.09990527130126953, test loss: 0.0034783666372299195, test accuracy: 0.8752
+
+
+
+--**--
+epoch-162 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.68182897567749
+epoch: 162, train loss: 0.09038783231019974, test loss: 0.003393951264023781, test accuracy: 0.8816
+
+
+
+--**--
+epoch-163 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.634845733642578
+epoch: 163, train loss: 0.0954581676387787, test loss: 0.0034151862502098083, test accuracy: 0.8816
+
+
+
+--**--
+epoch-164 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.751842260360718
+epoch: 164, train loss: 0.09113247973561286, test loss: 0.003419348281621933, test accuracy: 0.88
+
+
+
+--**--
+epoch-165 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.420763731002808
+epoch: 165, train loss: 0.09064559380471707, test loss: 0.003285419362783432, test accuracy: 0.8824
+
+
+
+--**--
+epoch-166 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.4956276416778564
+epoch: 166, train loss: 0.09516413745164871, test loss: 0.0032648323953151704, test accuracy: 0.88
+
+
+
+--**--
+epoch-167 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.502541780471802
+epoch: 167, train loss: 0.08065306130647659, test loss: 0.003263486289978027, test accuracy: 0.8888
+
+
+
+--**--
+epoch-168 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.500878572463989
+epoch: 168, train loss: 0.07836603853225708, test loss: 0.0034363756835460663, test accuracy: 0.884
+
+
+
+--**--
+epoch-169 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.718397855758667
+epoch: 169, train loss: 0.08953394519805909, test loss: 0.0033927505910396577, test accuracy: 0.8856
+
+
+
+--**--
+epoch-170 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.8751678466796875
+epoch: 170, train loss: 0.08449631675213576, test loss: 0.0034759854853153227, test accuracy: 0.8808
+
+
+
+--**--
+epoch-171 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.4233644008636475
+epoch: 171, train loss: 0.07971384081244469, test loss: 0.0032955927908420563, test accuracy: 0.8872
+
+
+
+--**--
+epoch-172 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.811624765396118
+epoch: 172, train loss: 0.08315354412794113, test loss: 0.0033398933112621307, test accuracy: 0.8872
+
+
+
+--**--
+epoch-173 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.417454957962036
+epoch: 173, train loss: 0.09222204304099083, test loss: 0.0033769387990236284, test accuracy: 0.888
+
+
+
+--**--
+epoch-174 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.720673561096191
+epoch: 174, train loss: 0.06931662928104401, test loss: 0.0034487266659736634, test accuracy: 0.8896
+
+
+
+--**--
+epoch-175 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.497484445571899
+epoch: 175, train loss: 0.08927259413957596, test loss: 0.003539395821094513, test accuracy: 0.888
+
+
+
+--**--
+epoch-176 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.6830151081085205
+epoch: 176, train loss: 0.08089846680134535, test loss: 0.0036377495288848877, test accuracy: 0.8816
+
+
+
+--**--
+epoch-177 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.744351387023926
+epoch: 177, train loss: 0.08033023712098598, test loss: 0.0034833394408226013, test accuracy: 0.8848
+
+
+
+--**--
+epoch-178 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.459892511367798
+epoch: 178, train loss: 0.09137703434228897, test loss: 0.0034262029469013214, test accuracy: 0.8864
+
+
+
+--**--
+epoch-179 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.599003314971924
+epoch: 179, train loss: 0.08453892866849899, test loss: 0.0037377343058586122, test accuracy: 0.8768
+
+
+
+--**--
+epoch-180 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.648428201675415
+epoch: 180, train loss: 0.0926841874909401, test loss: 0.0033828402608633043, test accuracy: 0.8928
+
+
+
+--**--
+epoch-181 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.604296922683716
+epoch: 181, train loss: 0.0773702955007553, test loss: 0.0034780692875385284, test accuracy: 0.8824
+
+
+
+--**--
+epoch-182 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.416670560836792
+epoch: 182, train loss: 0.07871914113283157, test loss: 0.0034196011126041413, test accuracy: 0.8912
+
+
+
+--**--
+epoch-183 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.349209308624268
+epoch: 183, train loss: 0.07331222185373307, test loss: 0.0036187116980552674, test accuracy: 0.8848
+
+
+
+--**--
+epoch-184 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.512835741043091
+epoch: 184, train loss: 0.08120760805368424, test loss: 0.003575148928165436, test accuracy: 0.888
+
+
+
+--**--
+epoch-185 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.534642696380615
+epoch: 185, train loss: 0.08882910165071488, test loss: 0.0034690772771835327, test accuracy: 0.8856
+
+
+
+--**--
+epoch-186 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.659884214401245
+epoch: 186, train loss: 0.07268201243638993, test loss: 0.003449233329296112, test accuracy: 0.884
+
+
+
+--**--
+epoch-187 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.54614520072937
+epoch: 187, train loss: 0.07335502114266157, test loss: 0.0036630127608776094, test accuracy: 0.8808
+
+
+
+--**--
+epoch-188 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.406979084014893
+epoch: 188, train loss: 0.07528365072727203, test loss: 0.0035319137454032897, test accuracy: 0.8848
+
+
+
+--**--
+epoch-189 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.381136655807495
+epoch: 189, train loss: 0.08231820999622345, test loss: 0.0036300597608089446, test accuracy: 0.8808
+
+
+
+--**--
+epoch-190 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.498847007751465
+epoch: 190, train loss: 0.0780144761532545, test loss: 0.0035334509313106536, test accuracy: 0.8792
+
+
+
+--**--
+epoch-191 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.438835620880127
+epoch: 191, train loss: 0.07982707007884979, test loss: 0.003522235959768295, test accuracy: 0.8872
+
+
+
+--**--
+epoch-192 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.491616249084473
+epoch: 192, train loss: 0.08626544983625412, test loss: 0.0034966707110404968, test accuracy: 0.8792
+
+
+
+--**--
+epoch-193 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.561377048492432
+epoch: 193, train loss: 0.06997612712144852, test loss: 0.00349839768409729, test accuracy: 0.8824
+
+
+
+--**--
+epoch-194 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.635174036026001
+epoch: 194, train loss: 0.0717499808396399, test loss: 0.0034822924554347994, test accuracy: 0.8824
+
+
+
+--**--
+epoch-195 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.7341625690460205
+epoch: 195, train loss: 0.08427311671733856, test loss: 0.003566945028305054, test accuracy: 0.8832
+
+
+
+--**--
+epoch-196 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.93766975402832
+epoch: 196, train loss: 0.0798214827144146, test loss: 0.003610542219877243, test accuracy: 0.8888
+
+
+
+--**--
+epoch-197 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.5149383544921875
+epoch: 197, train loss: 0.07561882630348206, test loss: 0.0035224295198917387, test accuracy: 0.8784
+
+
+
+--**--
+epoch-198 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.554015159606934
+epoch: 198, train loss: 0.07533754569411277, test loss: 0.0037071323215961457, test accuracy: 0.872
+
+
+
+--**--
+epoch-199 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.4376726150512695
+epoch: 199, train loss: 0.0891665935087204, test loss: 0.0033763288497924804, test accuracy: 0.892
+
+
+
+--**--
+epoch-200 lr: 0.002
+local_iters:  196
+neighbor : 0
+neighbor : 2
+compress, send and get time:  4.490878582000732
+epoch: 200, train loss: 0.07309482594132423, test loss: 0.003466197118163109, test accuracy: 0.8848
+
+
+
