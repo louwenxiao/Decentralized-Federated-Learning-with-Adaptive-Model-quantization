@@ -1,0 +1,248 @@
+{
+  "scripts_path": {
+    "local": "/data/lwang/distirbuted-model-training/client_module",
+    "remote": "/data/lwang/distirbuted-model-training/"
+  },
+  "worker_config_list": [
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge11",
+      "pass_wd": "edge11",
+      "listen_port": 47001,
+      "master_port": 57001,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge12",
+      "pass_wd": "edge12",
+      "listen_port": 47002,
+      "master_port": 57002,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge13",
+      "pass_wd": "edge13",
+      "listen_port": 47003,
+      "master_port": 57003,
+      "bandwidth": 0.05
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge14",
+      "pass_wd": "edge14",
+      "listen_port": 47004,
+      "master_port": 57004,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge15",
+      "pass_wd": "edge15",
+      "listen_port": 47005,
+      "master_port": 57005,
+      "bandwidth": 0.5
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge16",
+      "pass_wd": "edge16",
+      "listen_port": 47006,
+      "master_port": 57006,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge17",
+      "pass_wd": "edge11",
+      "listen_port": 47001,
+      "master_port": 57001,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge18",
+      "pass_wd": "edge12",
+      "listen_port": 47002,
+      "master_port": 57002,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge19",
+      "pass_wd": "edge13",
+      "listen_port": 47003,
+      "master_port": 57003,
+      "bandwidth": 0.05
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge20",
+      "pass_wd": "edge14",
+      "listen_port": 47004,
+      "master_port": 57004,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge21",
+      "pass_wd": "edge15",
+      "listen_port": 47005,
+      "master_port": 57005,
+      "bandwidth": 0.5
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge22",
+      "pass_wd": "edge16",
+      "listen_port": 47006,
+      "master_port": 57006,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge23",
+      "pass_wd": "edge11",
+      "listen_port": 47001,
+      "master_port": 57001,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge24",
+      "pass_wd": "edge12",
+      "listen_port": 47002,
+      "master_port": 57002,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge25",
+      "pass_wd": "edge13",
+      "listen_port": 47003,
+      "master_port": 57003,
+      "bandwidth": 0.05
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge26",
+      "pass_wd": "edge14",
+      "listen_port": 47004,
+      "master_port": 57004,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge27",
+      "pass_wd": "edge15",
+      "listen_port": 47005,
+      "master_port": 57005,
+      "bandwidth": 0.5
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge28",
+      "pass_wd": "edge16",
+      "listen_port": 47006,
+      "master_port": 57006,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge29",
+      "pass_wd": "edge11",
+      "listen_port": 47001,
+      "master_port": 57001,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge30",
+      "pass_wd": "edge12",
+      "listen_port": 47002,
+      "master_port": 57002,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge31",
+      "pass_wd": "edge13",
+      "listen_port": 47003,
+      "master_port": 57003,
+      "bandwidth": 0.05
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge32",
+      "pass_wd": "edge14",
+      "listen_port": 47004,
+      "master_port": 57004,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge33",
+      "pass_wd": "edge15",
+      "listen_port": 47005,
+      "master_port": 57005,
+      "bandwidth": 0.5
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge34",
+      "pass_wd": "edge16",
+      "listen_port": 47006,
+      "master_port": 57006,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge35",
+      "pass_wd": "edge11",
+      "listen_port": 47001,
+      "master_port": 57001,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge36",
+      "pass_wd": "edge12",
+      "listen_port": 47002,
+      "master_port": 57002,
+      "bandwidth": 0.2
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge37",
+      "pass_wd": "edge13",
+      "listen_port": 47003,
+      "master_port": 57003,
+      "bandwidth": 0.05
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge38",
+      "pass_wd": "edge14",
+      "listen_port": 47004,
+      "master_port": 57004,
+      "bandwidth": 0.1
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge39",
+      "pass_wd": "edge15",
+      "listen_port": 47005,
+      "master_port": 57005,
+      "bandwidth": 0.5
+    },
+    {
+      "ip_address": "127.0.0.1",
+      "user_name": "edge40",
+      "pass_wd": "edge16",
+      "listen_port": 47006,
+      "master_port": 57006,
+      "bandwidth": 0.2
+    }
+  ]
+}
