@@ -1,4 +1,4 @@
-# Decentralized-Federated-Learning-with-Adaptive-Model-quantization
+# Decentralized-Federated-Learning-with-Adaptive-Model-quantization-and-Local-updating
 
 ## 解决问题
 
